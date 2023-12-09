@@ -41,6 +41,16 @@ font-size: 13px;
     display: flex;
     flex-direction: column;
 }
+.form-head{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper form img{
+    max-width: 27px;
+    margin-left: -50px;
+}
 .wrapper form input{
     border: none;
     outline: none;
@@ -50,7 +60,7 @@ font-size: 13px;
 }
 .wrapper form p{
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     text-transform: uppercase;
 }
 .wrapper form input::placeholder{
